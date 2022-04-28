@@ -26,7 +26,6 @@ fun main(args: Array<String>) {
     println("12.345-6.A".split("\\.|-".toRegex()))
     println("12.345-6.A".split(".", "-"))
 
-
     fun parsePath(path: String) {
         val directory = path.substringBeforeLast("/")
         val fullName = path.substringAfterLast("/")
